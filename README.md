@@ -1,2 +1,7 @@
-# React-Native-Base-App
-Proyecto base para mis aplicaciones desarrolladas con React Native, incluye redux y react navigation.
+# React Native - Base App
+> Proyecto base para aplicaciones desarrollados con React Native.
+
+## Paquetes incluidos
+
+- [Redux](https://es.redux.js.org/)
+- [React Navigation](https://reactnavigation.org/)
