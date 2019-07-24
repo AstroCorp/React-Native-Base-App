@@ -8,8 +8,8 @@ class Settings extends Component {
             <View>
                 <Button title="Abrir" onPress={() => this.props.navigation.openDrawer()}/>
                 <Text>Pressed {this.props.counter} times!</Text>
-                <Button title="Increment" onPress={() => this.props.doIncrement()} />
-                <Button title="Decrement" onPress={() => this.props.doDecrement()} />
+                <Button title="Increment" onPress={() => this.props.doIncrement(1)} />
+                <Button title="Decrement" onPress={() => this.props.doDecrement(1)} />
             </View>
         );
     }
@@ -17,14 +17,14 @@ class Settings extends Component {
  
 function mapStateToProps(state) {
     return {
-        counter: state.counter
+        counter: state.exampleReducer.counter
     };
 }
  
 function mapDispatchToProps(dispatch) {
     return {
-        doIncrement: () => dispatch({type: 'INCREMENT'}),
-        doDecrement: () => dispatch({type: 'DECREMENT'}),
+        doIncrement: (value) => dispatch({type: 'INCREMENT', value: value}),
+        doDecrement: (value) => dispatch({type: 'DECREMENT', value: value}),
     }
 }
  
