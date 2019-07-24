@@ -1,7 +1,14 @@
-import { createStore, combineReducers, compose } from 'redux';
+import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
+import axiosMiddleware from 'redux-axios-middleware';
+import axios from 'axios';
 import exampleReducer from './reducers/example';
 
 console.disableYellowBox = true;
+
+const client = axios.create({
+    baseURL: 'https://api.github.com/users/AstroCorp/repos',
+    responseType: 'json'
+});
 
 const rootReducer = combineReducers({
     exampleReducer
@@ -14,7 +21,7 @@ if (__DEV__) {
 }
 
 const configureStore = () => {
-    return createStore(rootReducer, composeEnhancers());
+    return createStore(rootReducer, composeEnhancers(applyMiddleware(axiosMiddleware(client))));
 };
 
 export default configureStore;

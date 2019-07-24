@@ -1,4 +1,4 @@
-import { INCREMENT, DECREMENT } from './actionTypes';
+import { INCREMENT, DECREMENT, GET_REPOS } from './actionTypes';
 
 export const increment = (value) => {
     return {
@@ -13,3 +13,14 @@ export const decrement = (value) => {
         value: value
     };
 };
+
+export function listRepos() {
+  return {
+        type: GET_REPOS,
+        payload: {
+            request: {
+                url: ''
+            }
+        }
+    };
+}
