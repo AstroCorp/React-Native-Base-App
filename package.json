@@ -1,12 +1,12 @@
 {
-  "name": "App",
-  "version": "0.0.1",
+  "name": "app",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "clean": "cd android && gradlew clean && cd .. && react-native run-android"
+    "clean": "cd android && ./gradlew clean && cd .. && react-native run-android"
   },
   "dependencies": {
     "axios": "^0.19.0",

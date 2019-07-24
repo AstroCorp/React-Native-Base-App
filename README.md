@@ -5,3 +5,5 @@
 
 - [Redux](https://es.redux.js.org/)
 - [React Navigation](https://reactnavigation.org/)
+- [Redux Axios Middleware](https://github.com/svrcekmichal/redux-axios-middleware)
+- [Axios](https://github.com/axios/axios)
