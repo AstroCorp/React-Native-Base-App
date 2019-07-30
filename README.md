@@ -12,4 +12,4 @@
 ## Herramientas
 
 - [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
-- [SVG to React Native Component](https://github.com/react-native-community/react-native-svg)
+- [SVG to React Native Component](https://www.smooth-code.com/open-source/svgr/playground)
