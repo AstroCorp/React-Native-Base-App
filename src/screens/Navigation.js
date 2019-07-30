@@ -11,7 +11,7 @@ const Navigation = createDrawerNavigator({
     }
 },
 {
-    initialRouteName: 'Settings'
+    initialRouteName: 'Home'
 });
 
 export default createAppContainer(Navigation);
