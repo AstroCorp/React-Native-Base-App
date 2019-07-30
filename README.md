@@ -5,6 +5,8 @@
 
 - [Redux](https://es.redux.js.org/)
 - [React Navigation](https://reactnavigation.org/)
+- [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
+- [React Native Reanimated](https://github.com/kmagiera/react-native-reanimated)
 - [Redux Axios Middleware](https://github.com/svrcekmichal/redux-axios-middleware)
 - [Axios](https://github.com/axios/axios)
 - [Iconos SVG](https://github.com/react-native-community/react-native-svg)
