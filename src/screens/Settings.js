@@ -5,8 +5,10 @@ import { SafeAreaView } from 'react-navigation';
 import { increment, decrement, listRepos } from '../store/actions/index';
 import { Header } from '../components/Header';
 
-class Settings extends Component {
-    render() {
+class Settings extends Component
+{
+    render() 
+    {
         return (
             <ScrollView>
                 <SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
@@ -23,13 +25,15 @@ class Settings extends Component {
     }
 }
  
-function mapStateToProps(state) {
+function mapStateToProps(state) 
+{
     return {
         counter: state.exampleReducer.counter
     };
 }
  
-function mapDispatchToProps(dispatch) {
+function mapDispatchToProps(dispatch) 
+{
     return {
         onIncrement: (value) => dispatch(increment(value)),
         onDecrement: (value) => dispatch(decrement(value)),
