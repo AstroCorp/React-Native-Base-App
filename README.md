@@ -9,7 +9,8 @@
 - [React Native Reanimated](https://github.com/kmagiera/react-native-reanimated)
 - [Redux Axios Middleware](https://github.com/svrcekmichal/redux-axios-middleware)
 - [Axios](https://github.com/axios/axios)
-- [Iconos SVG](https://github.com/react-native-community/react-native-svg)
+- [React Native SVG](https://github.com/react-native-community/react-native-svg)
+- [React Native NetInfo](https://github.com/react-native-community/react-native-netinfo)
 
 ## Herramientas
 
