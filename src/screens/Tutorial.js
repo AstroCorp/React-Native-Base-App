@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
+import { Text, Button } from 'react-native';
+import { SafeAreaView } from 'react-navigation';
 
 class Tutorial extends Component
 {
@@ -11,10 +12,10 @@ class Tutorial extends Component
     render() 
     {
         return (
-            <View>
+            <SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
                 <Text>Tutorial :v</Text>
                 <Button onPress={ () => this.goToApp() } title="Entrar en la App" />
-            </View>
+            </SafeAreaView>
         );
     }
 }

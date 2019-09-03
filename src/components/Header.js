@@ -8,7 +8,7 @@ export const Header = (props) => (
         <View style={ styles.header }>
             <TouchableWithoutFeedback onPress={ () => props.navigation.openDrawer() }>
                 <View style={ styles.menuIcon }>
-                    <MenuIcon color="#FFF" size="36" /> 
+                    <MenuIcon size="36" /> 
                 </View>   
             </TouchableWithoutFeedback>
             <Text style={ styles.title }>{ props.title }</Text>
@@ -28,7 +28,6 @@ const styles = StyleSheet.create({
         padding: 12
     },
     title: {
-        color: '#FFF',
         fontSize: 20,
         paddingLeft: 5,
         marginTop: -2
