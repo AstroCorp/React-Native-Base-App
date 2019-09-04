@@ -1,4 +1,7 @@
-import { createDrawerNavigator, createAppContainer, createStackNavigator, createSwitchNavigator } from 'react-navigation';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createDrawerNavigator } from 'react-navigation-drawer';
+import { createStackNavigator } from 'react-navigation-stack';
+
 import Tutorial from './Tutorial';
 import Home from './Home';
 import Settings from './Settings';
