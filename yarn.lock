@@ -1062,10 +1062,10 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
-"@react-native-community/netinfo@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-4.2.2.tgz#15035730a230e743b2e5429f2bbd75b0851a4b98"
-  integrity sha512-ktMlUCYn+vKL8PQH/e6Vpoygvn3gU+Ibc1uD7m+pYhQwiKHD7eqCRAkR1Xt5vc2L3Xy3N1z0tMXlxzK4IKbYyQ==
+"@react-native-community/netinfo@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-4.4.0.tgz#a18eb9ba082b6aca6add004b4a918250ad7d13bc"
+  integrity sha512-qqNWMOsrDjj/daqV21ID2T8mNUjZD4pdx3PuWyE65gzKh2w+oMnzKb+J0NbLyZPn3wwLwU1+Cpf58A0ff5szjQ==
 
 "@react-navigation/core@^3.5.1":
   version "3.5.1"
