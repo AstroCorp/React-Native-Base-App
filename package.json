@@ -33,7 +33,7 @@
     "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.0",
+    "@babel/core": "^7.6.4",
     "@babel/runtime": "^7.5.0",
     "@react-native-community/eslint-config": "^0.0.5",
     "babel-jest": "^24.1.0",
