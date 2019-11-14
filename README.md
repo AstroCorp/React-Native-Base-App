@@ -18,3 +18,20 @@
 
 - [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 - [SVG to React Native Component](https://www.smooth-code.com/open-source/svgr/playground)
+
+## Comandos:
+> yarn run < comando >
+
+> npm run < comando >
+
+### Opciones:
+- **link:** Enlaza los assets automáticamente (fuentes de texto)
+- **apk:** Genera la apk para subirla a Google Play
+- **android-key:** Genera una key para debug
+- **clean:** Reinstala las dependencias de node (node_modules)
+- **clean-android:** Borra la caché en android
+- **clean-ios:** Borra la caché en IOS y reinstala los Pod
+- **android:** Abre la app en el emulador de android
+- **ios:** Abre la app en un emulador de IOS sin notch
+- **iosx:** Abre la app en un emulador de IOS con notch
+- **iost:** Abre la app en un emulador de iPad Pro

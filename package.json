@@ -7,13 +7,15 @@
     "test": "jest",
     "lint": "eslint .",
     "link": "react-native link",
+    "apk": "cd android && ./gradlew assembleRelease && cd ..",
     "android-key": "cd ./android/app/ && keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000",
     "clean": "rm -rf node_modules/ && yarn cache clean && yarn install",
     "clean-android": "cd android && ./gradlew clean && cd ..",
-    "clean-ios": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf ./ios/Pods/ && cd ios && pod install && cd ..",
+    "clean-ios": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf ./ios/build && rm -rf ./ios/Pods/ && cd ios && pod install && cd ..",
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "iosx": "react-native run-ios --simulator 'iPhone X'"
+    "ios": "react-native run-ios --simulator 'iPhone 8'",
+    "iosx": "react-native run-ios --simulator 'iPhone X'",
+    "iost": "react-native run-ios --simulator 'iPad Pro (12.9-inch) (3rd generation)'"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.2",
