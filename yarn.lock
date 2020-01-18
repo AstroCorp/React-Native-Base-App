@@ -5728,10 +5728,10 @@ react-native-screens@^2.0.0-alpha.25:
   dependencies:
     debounce "^1.2.0"
 
-react-native-svg@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-10.1.0.tgz#f7be0f814fb79b06dda6d938bf8e609f47318789"
-  integrity sha512-mgo6CshQIQrDDBVUPqJK/iOsJEdlagk7N4q8fyo1sqCiSUP2efpt+AQ1IRXZtHXut210/7TliAamvM59NV0Bzg==
+react-native-svg@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-11.0.0.tgz#8ed1abf90d9732c07ed316934af9cad659238687"
+  integrity sha512-EoLP14WnD8igJ8Uiw2oiFWrr0LRpl7eGeHetUxODyo08FoIO3cecL4gR8Ooyt5qPULN15KarQbDrQ7MH9MXtkg==
   dependencies:
     css-select "^2.1.0"
     css-tree "^1.0.0-alpha.39"
