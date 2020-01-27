@@ -18,6 +18,7 @@
 - [Redux](https://es.redux.js.org/)
 - [Redux Axios Middleware](https://github.com/svrcekmichal/redux-axios-middleware)
 - [Redux Persist](https://github.com/rt2zz/redux-persist)
+- [Lottie React Native](https://github.com/react-native-community/lottie-react-native)
 
 ## Herramientas
 
