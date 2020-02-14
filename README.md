@@ -12,8 +12,6 @@
 - [React Native Screens](https://github.com/kmagiera/react-native-screens)
 - [React Native SVG](https://github.com/react-native-community/react-native-svg)
 - [React Navigation](https://reactnavigation.org/)
-- [React Navigation Drawer](https://github.com/react-navigation/drawer)
-- [React Navigation Stack](https://github.com/react-navigation/stack)
 - [React Redux](https://github.com/reduxjs/react-redux)
 - [Redux](https://es.redux.js.org/)
 - [Redux Axios Middleware](https://github.com/svrcekmichal/redux-axios-middleware)
