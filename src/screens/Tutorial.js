@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import { Text, Button } from 'react-native';
-import { SafeAreaView } from 'react-navigation';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 class Tutorial extends Component
 {
-    goToApp()
-    {
-        this.props.navigation.navigate('App');
-    }
-
     render() 
     {
         return (
-            <SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
+            <SafeAreaView>
                 <Text>Tutorial :v</Text>
-                <Button onPress={ () => this.goToApp() } title="Entrar en la App" />
+                <Button onPress={ () => this.props.navigation.navigate('Home') } title="Entrar en la App" />
             </SafeAreaView>
         );
     }
