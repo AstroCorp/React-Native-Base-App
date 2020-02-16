@@ -1124,10 +1124,10 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-5.5.0.tgz#7f1d2e301b8a1294da44fb44d7b3fd6ea4d40c8a"
   integrity sha512-9fdOk1dxR3Bt+T4OuQxhf7EjyfbI6qVbPcNfTvVjGgRrx798ixAbBcCC+k5wp3LloVChVicXkyblu+wXEGiCWw==
 
-"@react-navigation/core@^5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-5.1.2.tgz#1947449cb2f565cde8511ab953bb7170516c3e0f"
-  integrity sha512-0nQ46DTMzj5UjqUcc6g996qMQ2vSRSNgxd9LPlACVYHQRbwG2HHUq//NhfVf06dNpBHkQ0HYUITDHo+tifemjA==
+"@react-navigation/core@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-5.1.4.tgz#bc6cca79833f70f879cdd7a6b78665878ce2f6de"
+  integrity sha512-BM/HHsRJdsr4xRKAI092FFz+T1A94Ggftf/BSZozBZ4i5btlJ0uXC3uBb1vpdhk/P/qfBOIEraZoEwOQ4JNpdg==
   dependencies:
     "@react-navigation/routers" "^5.0.1"
     escape-string-regexp "^2.0.0"
@@ -1144,12 +1144,12 @@
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
 
-"@react-navigation/native@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.0.3.tgz#6a16f50c41f62e27dafcff20848222c018a6b033"
-  integrity sha512-caJVWRkpTY6zFkpZvQE1Dg0gTu+a09XnleKaDEV9TOK8AxkBhp+X4GvCP/7sV9Ke8Cw8mvcnh9R1UCKIO4fTCQ==
+"@react-navigation/native@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.0.5.tgz#4ba4518ddba602086b80fc507fa7b5588c1e71c2"
+  integrity sha512-k42UHDzZwjN3f9WgCUKycJmpo2xypZDlauhhvSoTJ1DG4+sv0PvS5onJwjQm83F2FGACkOSWSoBo7wbYc+fTRQ==
   dependencies:
-    "@react-navigation/core" "^5.1.2"
+    "@react-navigation/core" "^5.1.4"
 
 "@react-navigation/routers@^5.0.1":
   version "5.0.1"
