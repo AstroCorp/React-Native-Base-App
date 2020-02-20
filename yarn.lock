@@ -5998,10 +5998,10 @@ react-native-safe-modules@^1.0.0:
   dependencies:
     dedent "^0.6.0"
 
-react-native-screens@^2.0.0-beta.8:
-  version "2.0.0-beta.8"
-  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.0.0-beta.8.tgz#f302c5a93b1bf067739026dd64ac553145659ecd"
-  integrity sha512-UCu5to8SM52aLhmKQPcwQ0cXekFUdCza9VU76gDAsodJS3kvmNaCkjlSQ0eFucqYEhMqCCZ/fYxpdMbSsiYHGg==
+react-native-screens@^2.0.0-beta.9:
+  version "2.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.0.0-beta.9.tgz#3eb9e929934e0fc98ee76143961d329d44d31e49"
+  integrity sha512-nZJFDeXap+gnZ932SeOGm76lHKnb42502fJmqMJzGxKbGV2idvkGmSHllTVDG/krw/lMmTJ0CA4GPvFXMfCrLg==
   dependencies:
     debounce "^1.2.0"
 
