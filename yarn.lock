@@ -1124,12 +1124,12 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-5.5.1.tgz#6433d4d9d5fbe836f019e5a88a6a24b6e2dc50b9"
   integrity sha512-6NKX/WzzC5FP2RSzoq+7CW/iIiRL2S6yN0JKiGvZ8EWAzJ43dbX5KG4kRa1JiKopAal5Vyh80dymbygeylwekQ==
 
-"@react-navigation/core@^5.1.6":
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-5.1.6.tgz#cefaad9618e17ff743d9a26aeee4da53c4a96b92"
-  integrity sha512-YsYICOZ+a1HmvfSULtR9BTRYJVB0vO9ZCFlSI5OZTcqlMH1oyV4Zt7Dxk6slPg0qa9n0agJB6L0ZWI2+gjmO0w==
+"@react-navigation/core@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-5.2.0.tgz#e12a4112835a962162081f7aba92361090d875ce"
+  integrity sha512-Jf/V8Em3SnN5DtWzdmkD/BrcKtwPtDyilcdbr9Y/eFCAPO+i0+pRLUmMCmPkr/1RdtvV1VT7bdcEuO1Kf7syeA==
   dependencies:
-    "@react-navigation/routers" "^5.0.2"
+    "@react-navigation/routers" "^5.0.3"
     escape-string-regexp "^2.0.0"
     query-string "^6.10.1"
     react-is "^16.12.0"
@@ -1144,17 +1144,17 @@
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
 
-"@react-navigation/native@^5.0.7":
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.0.7.tgz#621c4820ab751d09b13e39619439bd775a26f606"
-  integrity sha512-WDqhjyGSFsoMHD2436lvL6Z9Lmn3vJhY3Ltm8T2PNNtnR/3/Z7mNAKU373zritAUVSk0lJppAQluJYITtbdXcQ==
+"@react-navigation/native@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.0.8.tgz#9ca9c197815930e0eb39b453e3da02cc04b6637e"
+  integrity sha512-RsMCAYV10BzqedJLORWk+7tq8xzfYIUsUCbW7/LPKl9kNHBfQKQFsnf+Ki1Tpbr5XQhqkPG6Q/RZueUATGkGuA==
   dependencies:
-    "@react-navigation/core" "^5.1.6"
+    "@react-navigation/core" "^5.2.0"
 
-"@react-navigation/routers@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@react-navigation/routers/-/routers-5.0.2.tgz#c528a5c1f5f697fbb7ed7a8c8df87db4f4308b79"
-  integrity sha512-vHzXuhS9bkr/GnBkFVVmduHDTXRQAxKDBU77BRqL7Qg0D6gVlIHZTa68HsuoOoz1UH07ZaxYo1br0btXM322SQ==
+"@react-navigation/routers@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/routers/-/routers-5.0.3.tgz#8c8518013ace8a277d1e8ccd780d91db3df3867b"
+  integrity sha512-RlFP6Vpw3JWJrGzGDtnwNvy5OzMcnRn87xTFCHysC8qZC+g4EWfgveVDdc5+Unt/L8FqZAMqwcd3zdm3ZMy6OA==
   dependencies:
     shortid "^2.2.15"
 
