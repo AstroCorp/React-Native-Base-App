@@ -11,6 +11,7 @@
 - [React Native Reanimated](https://github.com/kmagiera/react-native-reanimated)
 - [React Native Screens](https://github.com/kmagiera/react-native-screens)
 - [React Native SVG](https://github.com/react-native-community/react-native-svg)
+- [React Native Splash Screen](https://github.com/crazycodeboy/react-native-splash-screen)
 - [React Navigation](https://reactnavigation.org/)
 - [React Redux](https://github.com/reduxjs/react-redux)
 - [Redux](https://es.redux.js.org/)
@@ -23,6 +24,8 @@
 - [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 - [SVG to React Native Component](https://www.smooth-code.com/open-source/svgr/playground)
 - [Yoga Layout](https://yogalayout.com/)
+- [Squoosh - Compresor de imágenes](https://squoosh.app/)
+- [Generador de icono y splash screen](https://github.com/bamlab/react-native-make)
 
 ## Comandos:
 > yarn run < comando >
@@ -36,6 +39,7 @@
 - **clean:** Reinstala las dependencias de node (node_modules)
 - **clean-android:** Borra la caché en android
 - **clean-ios:** Borra la caché en IOS y reinstala los Pod
+- **clean-all:** Ejecuta todos los clean anteriores
 - **android:** Abre la app en el emulador de android
 - **ios:** Abre la app en un emulador de IOS (iPhone 8)
 - **iosx:** Abre la app en un emulador de IOS (iPhone X)
