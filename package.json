@@ -22,7 +22,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.8.1",
     "@react-native-community/masked-view": "^0.1.7",
-    "@react-native-community/netinfo": "^5.5.1",
+    "@react-native-community/netinfo": "^5.6.1",
     "@react-navigation/drawer": "^5.0.7",
     "@react-navigation/stack": "^5.1.0",
     "@react-navigation/native": "^5.0.9",
