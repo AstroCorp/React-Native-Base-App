@@ -1146,10 +1146,10 @@
     shortid "^2.2.15"
     use-subscription "^1.4.0"
 
-"@react-navigation/drawer@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.3.0.tgz#55654ac4b4cbdbd257d6d3071ab6cb3675e74cdb"
-  integrity sha512-7pPQWKl86EITpskHHnY73HUljvZsp67r0kmpp5uDhz9I0D/QHvl6KtuS4ACOUS8kHP5e/aQkYPBvboZl55xvBQ==
+"@react-navigation/drawer@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.3.1.tgz#117946960a126e9e9248c63c8552f435cf7e9aed"
+  integrity sha512-s9VPXLzZeGWNy7CEaq468Q9T5fKPoHyiv2LAWVeEmXAhNUZ4jlVLsgJITb2OoXqOLxxIn4F/EluGFWkxdYdodw==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
