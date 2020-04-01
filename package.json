@@ -20,7 +20,7 @@
     "iost": "react-native run-ios --simulator 'iPad Pro (12.9-inch) (3rd generation)'"
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.8.1",
+    "@react-native-community/async-storage": "^1.9.0",
     "@react-native-community/masked-view": "^0.1.7",
     "@react-native-community/netinfo": "^5.7.0",
     "@react-navigation/native": "^5.1.4",
