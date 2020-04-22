@@ -829,10 +829,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bam.tech/react-native-make@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@bam.tech/react-native-make/-/react-native-make-2.0.0.tgz#ca6135bc538ff338efc36552bb1a33b6cae4d0bf"
-  integrity sha512-mNwU/wtxJac2YU8rxtqErvp/1uAUX57BODjVP4C4M+33JnPurGoecfEbytRMkV7ZQKrgN/nS2kPpZMP1yytAbA==
+"@bam.tech/react-native-make@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@bam.tech/react-native-make/-/react-native-make-3.0.0.tgz#5522dd61335e7a01f296ed78ef502461c6774d67"
+  integrity sha512-faRbzFn4SYfA/fAtn1D8YhluiiudU3/rpzk/j5+TluCgbe4zmElWHxStEpSlb/zgUPBeQlnvUXt9i03WGrpLrQ==
   dependencies:
     color-string "^1.5.3"
     colors "^1.3.3"
