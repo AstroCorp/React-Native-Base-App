@@ -1281,10 +1281,10 @@
     react-is "^16.13.0"
     use-subscription "^1.4.0"
 
-"@react-navigation/drawer@^5.6.1":
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.6.1.tgz#6fd14b8f7be982536b8040b848d10c000fd1831c"
-  integrity sha512-6tDI75EIh8j3W89v01hJSE6pN6PDGkE4TVXAAMiOqdJmU5Gc+luoqc/Yir5wRSYLmKtMpPXMohwplsSFB98FDg==
+"@react-navigation/drawer@^5.5.1":
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.6.2.tgz#f26e77900ea0504e3186ea953e6a70a2ab706a58"
+  integrity sha512-OpTT2oUfck+XgCMkzOlS0t3NlrqkVK49GxlzM9eyEhVaRX6Vog1sxClbi5ViDKogtBWGlr3JITMdf+E1y4kuAA==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
@@ -1303,10 +1303,10 @@
   dependencies:
     nanoid "^3.0.2"
 
-"@react-navigation/stack@^5.2.16":
-  version "5.2.16"
-  resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.2.16.tgz#0ab0b8b401f13f5823de7334a643baac3bc3cd04"
-  integrity sha512-0l0Aalj5RNcHLVaS2hgrs58eNDHlkAGPeyEUFcxbk2ii93F8W9MmSCYUn+Tpvruqfv/m9FnyLbQ1DpQOxsekIg==
+"@react-navigation/stack@^5.2.17":
+  version "5.2.17"
+  resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.2.17.tgz#a21a6567ec11365dff078c03cbaa9ec827eb3629"
+  integrity sha512-jrjf471LJxrhRN2QAw3ujqN9r/50TLRLMkC2wnyd27ipeymL8DZTLl61cLnCuNfRWhA5DZ6yDqPYUbZSfBcdjA==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
