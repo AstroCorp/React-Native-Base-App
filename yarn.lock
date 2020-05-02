@@ -1289,10 +1289,10 @@
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
 
-"@react-navigation/native@^5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.2.2.tgz#fd93454376ede497925bee0237b86c76cc795dc6"
-  integrity sha512-dmVZKXGAIpvqo+u5kQxWs9TbSqqPJbkH2d3X+y5hxlN7rkPoig25WMx4fWEbBtWIUHs2zO4Qifi9BY5BO9qkfQ==
+"@react-navigation/native@^5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.2.3.tgz#2e2ec88396d2be96d11f9430b4af6dcea34029b0"
+  integrity sha512-fQfW506n9eTwBGiUbuxSvI7DTBXwR3IqAlooBCUHRJC0WiuSUm3aGg6eESJc8nW1A64hu33i/ITf10mn3Ec6Tg==
   dependencies:
     "@react-navigation/core" "^5.4.0"
 
@@ -1303,10 +1303,10 @@
   dependencies:
     nanoid "^3.0.2"
 
-"@react-navigation/stack@^5.2.17":
-  version "5.2.17"
-  resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.2.17.tgz#a21a6567ec11365dff078c03cbaa9ec827eb3629"
-  integrity sha512-jrjf471LJxrhRN2QAw3ujqN9r/50TLRLMkC2wnyd27ipeymL8DZTLl61cLnCuNfRWhA5DZ6yDqPYUbZSfBcdjA==
+"@react-navigation/stack@^5.2.18":
+  version "5.2.18"
+  resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.2.18.tgz#673e7e0183d216212ceb28b701c6c02d68d84ffc"
+  integrity sha512-8+6+4hfwqOP1brdwG8RffpRQqTIUH00YMm3wqXSex2N2aJCgR79gvYqWu23JtipfSUaMYCuO8n2LyUeg3W/AkQ==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
