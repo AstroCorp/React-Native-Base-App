@@ -1126,10 +1126,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@react-native-community/async-storage@^1.10.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.10.1.tgz#23902625cf146a25b2929d72558caa437c72c4a8"
-  integrity sha512-9wjW4lNAKkNgeQtj4dG2graKoJoiAELvh6QDXZ55ld5J58kOfJIe6ELaGBUtIAoXPpmjsddjpXrfV6af3mN2JA==
+"@react-native-community/async-storage@^1.10.3":
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.10.3.tgz#6974404a903a317f462bd0ac3fafa7c0291679df"
+  integrity sha512-f3G3dX5aoFZZC1G7alnaFmlTpXn8HPfpR8H3Hf7wbbQrQvZmW7mW2fXHv/oj99FNPd228bneL3GOnjGe2Epkww==
   dependencies:
     deep-assign "^3.0.0"
 
@@ -1268,10 +1268,10 @@
     react-is "^16.13.0"
     use-subscription "^1.4.0"
 
-"@react-navigation/drawer@^5.7.4":
-  version "5.7.4"
-  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.7.4.tgz#2aa127d7963269b441a842f62bb315e9c26ff524"
-  integrity sha512-VHgWSOUs6Kdxtk2azbmB4NIo4Z5t0+YYoS5aD6CghkROvfpDw1Bw5yNLGj5heqI8Zey/QNO7F/KcY4JqAAtIJw==
+"@react-navigation/drawer@^5.7.7":
+  version "5.7.7"
+  resolved "https://registry.yarnpkg.com/@react-navigation/drawer/-/drawer-5.7.7.tgz#25d088b7bf53368085bc88a853071e3c14560296"
+  integrity sha512-E/1kcZexfIXC3uLJSokAb5CD4qmOF1udjZ8QzDyzKWgygWk6YhvXX+koCENOvGnslU0HfUH/BCoecxksilJ7kA==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
@@ -1290,10 +1290,10 @@
   dependencies:
     nanoid "^3.1.5"
 
-"@react-navigation/stack@^5.3.6":
-  version "5.3.6"
-  resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.3.6.tgz#7a1bf2f6b77dd92a0aa7befb4f3263215bed58f5"
-  integrity sha512-6uE9pWMa9tdvDSbMV9o6/1cFrT60c2S3CTKIR5mZWJbyanIGFdu/ScbjIvplnG5kLG24rIpc3rtC0FgqTsBVXQ==
+"@react-navigation/stack@^5.3.9":
+  version "5.3.9"
+  resolved "https://registry.yarnpkg.com/@react-navigation/stack/-/stack-5.3.9.tgz#0122e1f231ed16caac18479637c0a806e37c3048"
+  integrity sha512-Hcp44zILnlgtl9ZsSroMUPpU2iZNZWml2FcGmF69SvZXP3PT/bfp0pRzshv31oSEnlLvwqYmHYwUQnFwNAlLmg==
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
@@ -6373,10 +6373,10 @@ react-native-reanimated@^1.9.0:
   dependencies:
     fbjs "^1.0.0"
 
-react-native-safe-area-context@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-1.0.0.tgz#8b4d79b06d6a9ed5ff3b2c3f0ba25d85538a3149"
-  integrity sha512-8Poo0FHSS/KE0fP6JUH9Mnjg2KQ5MfZAJN3G8/gW2HoFSypWSfFmDp5msETU0Ix3OnRsmBZTJpmgHFEl9OfNAg==
+react-native-safe-area-context@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-1.0.2.tgz#fe282bee7cb7245bd9ead6579cda9bbc704cd590"
+  integrity sha512-rugRv/iBXaFspJTlNsGU9XgEJlabcqjwc9ySj6ErIvLCuZZ7vUaQSLWbMPcAOpXuA6/qUA3l4ty5+fErcV88Xw==
 
 react-native-safe-modules@^1.0.0:
   version "1.0.0"
