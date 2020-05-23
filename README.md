@@ -43,7 +43,7 @@
 6. Ejecutar yarn run clean-android.\*
 7. Ejecutar yarn run clean-ios.\*
 
-> Si desarrollas en MAC OS puedes ejecutar yarn clean-all y automáticamente se ejecutarn los 3 clean.
+> Si desarrollas en MAC OS puedes ejecutar yarn clean-all y automáticamente se ejecutarán los 3 clean.
 
 ## Comandos:
 
@@ -60,7 +60,7 @@
 - **clean-android:** Borra la caché en android
 - **clean-ios:** Borra la caché en IOS y reinstala los Pod
 - **clean-all:** Ejecuta todos los clean anteriores
-- **android:** Abre la app en el emulador de android
+- **android:** Abre la app en el emulador de android o en tu smartphone si lo tienes conectado
 - **ios:** Abre la app en un emulador de IOS (iPhone 8)
 - **iosx:** Abre la app en un emulador de IOS (iPhone X)
 - **iosxsmax:** Abre la app en un emulador de IOS (iPhone Xs Max)
