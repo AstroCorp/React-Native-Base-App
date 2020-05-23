@@ -53,6 +53,8 @@
     "eslint": "^7.1.0",
     "jest": "^26.0.1",
     "metro-react-native-babel-preset": "^0.59.0",
+    "react-native-rename": "^2.4.1",
+    "react-native-rename-next": "^2.5.3",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
