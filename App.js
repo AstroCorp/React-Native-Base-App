@@ -6,6 +6,7 @@ import configureStore from './src/store/configureStore';
 import { PersistGate } from 'redux-persist/integration/react';
 import NetInfo from "@react-native-community/netinfo";
 import SplashScreen from 'react-native-splash-screen';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -53,24 +54,27 @@ export default class App extends Component {
 
 	render() {
 		return (
-			<Provider store={store.store}>
-				<PersistGate loading={null} persistor={store.persistor}>
-					<StatusBar backgroundColor="#1775C2" barStyle="light-content" />
-
-					<NavigationContainer>
-      					<Stack.Navigator initialRouteName="Tutorial">
-						  	<Stack.Screen name="Tutorial" component={Tutorial} options={{ headerShown: false }} />
-						  	<Stack.Screen name="Home" component={this.drawer} options={{ headerShown: false }} />
-      					</Stack.Navigator>
-    				</NavigationContainer>
-
-					{ this.state.isConnected ? null :
-						<View style={styles.bg}>
-							<Text style={styles.text}>Sin conexión</Text>
-						</View>
-					}
-				</PersistGate>
-			</Provider>
+			<SafeAreaProvider>
+				<Provider store={store.store}>
+					<PersistGate loading={null} persistor={store.persistor}>
+						<StatusBar backgroundColor="#1775C2" />
+			
+						<NavigationContainer>
+      						<Stack.Navigator initialRouteName="Tutorial">
+							  	<Stack.Screen name="Tutorial" component={Tutorial} options={{ headerShown: false }} />
+							  	<Stack.Screen name="Home" component={this.drawer} options={{ headerShown: false }} />
+      						</Stack.Navigator>
+    					</NavigationContainer>
+			
+						{ this.state.isConnected ? null :
+							<View style={styles.bg}>
+								<Text style={styles.text}>Sin conexión</Text>
+							</View>
+						}
+					</PersistGate>
+				</Provider>
+			</SafeAreaProvider>
+			
 		);
 	}
 }

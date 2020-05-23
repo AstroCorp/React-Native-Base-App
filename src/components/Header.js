@@ -1,19 +1,19 @@
 import React from 'react';
-import { ScrollView, View, TouchableWithoutFeedback, Text, StyleSheet, StatusBar } from 'react-native';
+import { View, TouchableWithoutFeedback, Text, StyleSheet, StatusBar } from 'react-native';
 import MenuIcon from '../assets/icons/Menu';
 
 export const Header = (props) => (
-    <ScrollView>
+    <View style={{ height: 60 }}>
         <StatusBar backgroundColor="#346998" />
         <View style={ styles.header }>
             <TouchableWithoutFeedback onPress={ () => props.navigation.openDrawer() }>
                 <View style={ styles.menuIcon }>
-                    <MenuIcon size="36" /> 
+                    <MenuIcon color="#FFF" size="36" /> 
                 </View>   
             </TouchableWithoutFeedback>
             <Text style={ styles.title }>{ props.title }</Text>
         </View>
-    </ScrollView>
+    </View>
 );
 
 const styles = StyleSheet.create({
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 20,
         paddingLeft: 5,
-        marginTop: -2
+        marginTop: -2,
+        color: "#FFF"
     }
 });

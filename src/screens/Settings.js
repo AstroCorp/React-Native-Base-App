@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Text, Button } from 'react-native';
 import { increment, decrement, listRepos } from '../store/actions/index';
 import { Header } from '../components/Header';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import SafeAreaView from 'react-native-safe-area-view';
 
 class Settings extends Component
 {
