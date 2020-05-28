@@ -6255,10 +6255,10 @@ react-native-rename@^2.4.1:
     node-replace "^0.3.3"
     shelljs "^0.7.7"
 
-react-native-safe-area-context@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-2.0.3.tgz#d89b60336ea2a1e9e2ff64fcac7b226aea0af370"
-  integrity sha512-KMYfJNLyPEFnYbpZiViqa9wHqVXZdZTebhs4tGER8YPvLRc4Qp7mUSfhDVnlNG/xG1denO1ehTAZQZ1fogxJeg==
+react-native-safe-area-context@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.0.1.tgz#ceaf1d5d38b2af042bbc8325425ba560d678a95c"
+  integrity sha512-sdSfS1hKQuuMutzz88I5MXGv3P9OJykxai+oy3V8yJtrm6sUmexVEeeTAKUsohPFpsFaZRoWqUlDccPRkPgJNA==
 
 react-native-safe-area-view@^1.1.1:
   version "1.1.1"
