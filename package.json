@@ -22,7 +22,7 @@
   "dependencies": {
     "@react-native-community/async-storage": "^1.11.0",
     "@react-native-community/masked-view": "^0.1.10",
-    "@react-native-community/netinfo": "^5.9.2",
+    "@react-native-community/netinfo": "^5.9.3",
     "@react-navigation/stack": "^5.5.1",
     "@react-navigation/drawer": "^5.8.2",
     "@react-navigation/native": "^5.5.1",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "^7.10.3",
-    "@babel/core": "^7.10.2",
+    "@babel/core": "^7.10.3",
     "@bam.tech/react-native-make": "^3.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-jest": "^26.0.1",
