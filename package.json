@@ -6,7 +6,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "link": "react-native link",
+    "rn-link": "react-native link",
     "apk": "cd android && ./gradlew assembleRelease && cd ..",
     "android-key": "cd ./android/app/ && keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000",
     "clean": "rm -rf node_modules/ && yarn cache clean && yarn install",
