@@ -53,7 +53,7 @@
 
 ### Opciones:
 
-- **link:** Enlaza los assets automáticamente (fuentes de texto)
+- **rn-link:** Enlaza los assets automáticamente (fuentes de texto)
 - **apk:** Genera la apk para subirla a Google Play
 - **android-key:** Genera una key para debug
 - **clean:** Reinstala las dependencias de node (node_modules)
