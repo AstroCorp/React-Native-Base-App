@@ -9,7 +9,7 @@
     "rn-link": "react-native link",
     "apk": "cd android && ./gradlew assembleRelease && cd ..",
     "android-key": "cd ./android/app/ && keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000",
-    "clean": "rm -rf node_modules/ && yarn cache clean && yarn install",
+    "clean": "rm -rf node_modules/ && rm yarn.lock && yarn cache clean && yarn install",
     "clean-android": "cd android && ./gradlew clean && cd ..",
     "clean-ios": "watchman watch-del-all && rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-* && rm -rf ./ios/build && rm -rf ./ios/Pods/ && cd ios && pod install && cd ..",
     "clean-all": "yarn clean && yarn clean-android && yarn clean-ios",
