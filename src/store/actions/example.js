@@ -15,7 +15,7 @@ export const decrement = (value) => {
 };
 
 export function listRepos() {
-  return {
+    return {
         type: GET_REPOS,
         payload: {
             request: {

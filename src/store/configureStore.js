@@ -37,10 +37,10 @@ const rootReducer = combineReducers({
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 const configureStore = () => {
-  let store = createStore(persistedReducer, composeEnhancers(applyMiddleware(axiosMiddleware(client))));
-  let persistor = persistStore(store);
+    let store = createStore(persistedReducer, composeEnhancers(applyMiddleware(axiosMiddleware(client))));
+    let persistor = persistStore(store);
 
-  return { store, persistor };
+    return { store, persistor };
 };
 
 export default configureStore;

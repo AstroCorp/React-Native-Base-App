@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import { StatusBar, View, Text, StyleSheet } from 'react-native';
 import { Provider } from 'react-redux';
 import configureStore from './src/store/configureStore';
@@ -20,63 +20,51 @@ const store = configureStore();
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 
-export default class App extends Component {
-	state = {
-		isConnected: true,
-	};
+const App = () => {
+	const [isConnected, setIsConnected] = useState(true);
 
-	componentDidMount() 
-	{
+	useEffect(() => {
 		SplashScreen.hide();
-		this.toggleInternetStatus();
-	}
+		toggleInternetStatus();
 
-	componentWillUnmount()
-	{
-		this.toggleInternetStatus();
-	}
-
-	toggleInternetStatus = () => NetInfo.addEventListener(state => {
-		this.setState({
-			isConnected: state.isConnected,
-		});
+		return () => toggleInternetStatus();
 	});
 
-	drawer()
-	{
+	const toggleInternetStatus = () => {
+		NetInfo.addEventListener(state => setIsConnected(state.isConnected));
+	};
+
+	const drawer = () => {
 		return (
 			<Drawer.Navigator initialRouteName="Home">
 				<Drawer.Screen name="Home" component={Home} options={{ headerShown: false }} />
-        		<Drawer.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
+				<Drawer.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
 			</Drawer.Navigator>
 		);
 	}
 
-	render() {
-		return (
-			<SafeAreaProvider>
-				<Provider store={store.store}>
-					<PersistGate loading={null} persistor={store.persistor}>
-						<StatusBar backgroundColor="#1775C2" />
-			
-						<NavigationContainer>
-      						<Stack.Navigator initialRouteName="Tutorial">
-							  	<Stack.Screen name="Tutorial" component={Tutorial} options={{ headerShown: false }} />
-							  	<Stack.Screen name="Home" component={this.drawer} options={{ headerShown: false }} />
-      						</Stack.Navigator>
-    					</NavigationContainer>
-			
-						{ this.state.isConnected ? null :
-							<View style={styles.bg}>
-								<Text style={styles.text}>Sin conexión</Text>
-							</View>
-						}
-					</PersistGate>
-				</Provider>
-			</SafeAreaProvider>
-			
-		);
-	}
+	return (
+		<SafeAreaProvider>
+			<Provider store={store.store}>
+				<PersistGate loading={null} persistor={store.persistor}>
+					<StatusBar backgroundColor="#1775C2" />
+
+					<NavigationContainer>
+						<Stack.Navigator initialRouteName="Tutorial">
+							<Stack.Screen name="Tutorial" component={Tutorial} options={{ headerShown: false }} />
+							<Stack.Screen name="Home" component={drawer} options={{ headerShown: false }} />
+						</Stack.Navigator>
+					</NavigationContainer>
+
+					{!isConnected && (
+						<View style={styles.bg}>
+							<Text style={styles.text}>Sin conexión</Text>
+						</View>
+					)}
+				</PersistGate>
+			</Provider>
+		</SafeAreaProvider>
+	);
 }
 
 const styles = StyleSheet.create({
@@ -95,3 +83,5 @@ const styles = StyleSheet.create({
 		marginBottom: 35
 	}
 });
+
+export default App;

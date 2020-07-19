@@ -2,16 +2,16 @@ import React from 'react';
 import { View, TouchableWithoutFeedback, Text, StyleSheet, StatusBar } from 'react-native';
 import MenuIcon from '../assets/icons/Menu';
 
-export const Header = (props) => (
+const Header = (props) => (
     <View style={{ height: 60 }}>
         <StatusBar backgroundColor="#346998" />
-        <View style={ styles.header }>
-            <TouchableWithoutFeedback onPress={ () => props.navigation.openDrawer() }>
-                <View style={ styles.menuIcon }>
-                    <MenuIcon color="#FFF" size="36" /> 
-                </View>   
+        <View style={styles.header}>
+            <TouchableWithoutFeedback onPress={() => props.navigation.openDrawer()}>
+                <View style={styles.menuIcon}>
+                    <MenuIcon color="#FFF" size="36" />
+                </View>
             </TouchableWithoutFeedback>
-            <Text style={ styles.title }>{ props.title }</Text>
+            <Text style={styles.title}>{props.title}</Text>
         </View>
     </View>
 );
@@ -24,9 +24,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center'
     },
+
     menuIcon: {
         padding: 12
     },
+
     title: {
         fontSize: 20,
         paddingLeft: 5,
@@ -34,3 +36,5 @@ const styles = StyleSheet.create({
         color: "#FFF"
     }
 });
+
+export default Header;

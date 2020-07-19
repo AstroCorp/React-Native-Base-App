@@ -6,15 +6,14 @@ const initialState = {
   error: '',
   repos: [],
 }
- 
+
 const exampleReducer = (state = initialState, action) => {
-  switch (action.type)
-  {
+  switch (action.type) {
     case INCREMENT:
-      return {...state, counter: state.counter + action.value};
+      return { ...state, counter: state.counter + action.value };
 
     case DECREMENT:
-      return {...state, counter: state.counter - action.value};
+      return { ...state, counter: state.counter - action.value };
 
     case GET_REPOS:
       return { ...state, loading: true };
