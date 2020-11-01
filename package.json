@@ -24,7 +24,7 @@
     "@react-native-community/masked-view": "^0.1.10",
     "@react-native-community/netinfo": "^5.9.6",
     "@react-navigation/stack": "^5.9.0",
-    "@react-navigation/drawer": "^5.9.0",
+    "@react-navigation/drawer": "^5.10.2",
     "@react-navigation/native": "^5.7.3",
     "axios": "^0.20.0",
     "lottie-ios": "^3.1.8",
