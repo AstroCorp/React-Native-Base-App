@@ -65,3 +65,5 @@
 - **iosx:** Abre la app en un emulador de IOS (iPhone X)
 - **iosxsmax:** Abre la app en un emulador de IOS (iPhone Xs Max)
 - **iost:** Abre la app en un emulador de IOS (iPad Pro (12.9-inch) (3rd generation))
+- **nox-player:** Usar Nox Player para desarrollar
+- **devmenu-android:** Abrir menú de desarrollo en android
