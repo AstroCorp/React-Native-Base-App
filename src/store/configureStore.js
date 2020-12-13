@@ -4,7 +4,7 @@ import { persistStore, persistReducer } from 'redux-persist';
 import AsyncStorage from '@react-native-community/async-storage';
 import axiosMiddleware from 'redux-axios-middleware';
 import axios from 'axios';
-import exampleReducer from './reducers/example';
+import exampleReducer from './reducers/exampleReducer';
 
 LogBox.ignoreAllLogs();
 
@@ -31,7 +31,7 @@ const persistConfig = {
 }
 
 const rootReducer = combineReducers({
-    exampleReducer
+    exampleReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
