@@ -1,27 +1,6 @@
 # React Native - Base App
 
-> Proyecto base para aplicaciones desarrollados con React Native.
-
-## Paquetes incluidos
-
-- [Async Storage](https://github.com/react-native-community/async-storage)
-- [React Native MaskedView](https://github.com/react-native-community/react-native-masked-view)
-- [React Native NetInfo](https://github.com/react-native-community/react-native-netinfo)
-- [React Navigation](https://reactnavigation.org/)
-- [Axios](https://github.com/axios/axios)
-- [Lottie React Native](https://github.com/react-native-community/lottie-react-native)
-- [React Native Fast Image](https://github.com/DylanVann/react-native-fast-image)
-- [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
-- [React Native Reanimated](https://github.com/kmagiera/react-native-reanimated)
-- [React Native Safe Area Context](https://github.com/th3rdwave/react-native-safe-area-context)
-- [React Native Safe Area View](https://github.com/react-navigation/react-native-safe-area-view)
-- [React Native Screens](https://github.com/kmagiera/react-native-screens)
-- [React Native Splash Screen](https://github.com/crazycodeboy/react-native-splash-screen)
-- [React Native SVG](https://github.com/react-native-community/react-native-svg)
-- [React Redux](https://github.com/reduxjs/react-redux)
-- [Redux](https://es.redux.js.org/)
-- [Redux Axios Middleware](https://github.com/svrcekmichal/redux-axios-middleware)
-- [Redux Persist](https://github.com/rt2zz/redux-persist)
+> Base para desarrollar aplicaciones para iOS y Android con React Native.
 
 ## Herramientas
 
