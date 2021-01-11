@@ -41,8 +41,8 @@
 - **clean-all:** Ejecuta todos los clean anteriores
 - **android:** Abre la app en el emulador de android o en tu smartphone si lo tienes conectado
 - **ios:** Abre la app en un emulador de IOS (iPhone 8)
-- **iosx:** Abre la app en un emulador de IOS (iPhone X)
-- **iosxsmax:** Abre la app en un emulador de IOS (iPhone Xs Max)
-- **iost:** Abre la app en un emulador de IOS (iPad Pro (12.9-inch) (3rd generation))
+- **ios-notch:** Abre la app en un emulador de IOS (iPhone 12)
+- **ios-promax:** Abre la app en un emulador de IOS (iPhone 12 Pro Max)
+- **ios-ipadpro:** Abre la app en un emulador de IOS (iPad Pro (12.9-inch) (4rd generation))
 - **nox-player:** Usar Nox Player para desarrollar
 - **devmenu-android:** Abrir menú de desarrollo en android
