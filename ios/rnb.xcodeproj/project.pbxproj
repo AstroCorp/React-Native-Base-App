@@ -16,6 +16,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* rnbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnbTests.m */; };
 		3F1B116B90ECF8C32A54A5E7 /* libPods-rnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 153AE75F8B109E0F67802A4A /* libPods-rnb.a */; };
+		A9C43B6725FF6852000C4CA7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C43B6625FF6852000C4CA7 /* File.swift */; };
 		F0ECA2422B4B75A505C36AEE /* libPods-rnb-rnbTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58834EAC70D345F5BCE9556C /* libPods-rnb-rnbTests.a */; };
 		FAAE8933247847360022AB07 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAE8932247847360022AB07 /* SplashScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		2D02E4901E0B4A5D006451C7 /* rnb-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rnb-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58834EAC70D345F5BCE9556C /* libPods-rnb-rnbTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnb-rnbTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		767149E5799494D616225C93 /* Pods-rnb-rnbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnb-rnbTests.debug.xcconfig"; path = "Target Support Files/Pods-rnb-rnbTests/Pods-rnb-rnbTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C43B6625FF6852000C4CA7 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		BD6E276443D41DA8E66A61C2 /* Pods-rnb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnb.debug.xcconfig"; path = "Target Support Files/Pods-rnb/Pods-rnb.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB0D3E7666DC70A77762327 /* Pods-rnb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnb.release.xcconfig"; path = "Target Support Files/Pods-rnb/Pods-rnb.release.xcconfig"; sourceTree = "<group>"; };
 		EABE0F011A773891778DFA7A /* Pods-rnb-rnbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnb-rnbTests.release.xcconfig"; path = "Target Support Files/Pods-rnb-rnbTests/Pods-rnb-rnbTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A9C43B6625FF6852000C4CA7 /* File.swift */,
 				13B07FAE1A68108700A75B9A /* rnb */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* rnbTests */,
@@ -277,7 +280,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1230;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -544,6 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				A9C43B6725FF6852000C4CA7 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
