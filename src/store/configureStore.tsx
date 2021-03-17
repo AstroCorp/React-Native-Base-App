@@ -12,32 +12,35 @@ Text?.defaultProps = Text.defaultProps || {};
 Text?.defaultProps.allowFontScaling = false;
 
 const client = axios.create({
-    baseURL: 'https://api.github.com/users/AstroCorp/repos',
-    responseType: 'json'
+	baseURL: 'https://api.github.com/users/AstroCorp/repos',
+	responseType: 'json',
 });
 
 let composeEnhancers = compose;
 
 if (__DEV__) {
-    composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+	composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 }
 
 const persistConfig = {
-    key: 'example',
-    storage: AsyncStorage
-}
+	key: 'example',
+	storage: AsyncStorage,
+};
 
 const rootReducer = combineReducers({
-    exampleReducer,
+	exampleReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 const configureStore = () => {
-    let store = createStore(persistedReducer, composeEnhancers(applyMiddleware(axiosMiddleware(client))));
-    let persistor = persistStore(store);
+	let store = createStore(
+		persistedReducer,
+		composeEnhancers(applyMiddleware(axiosMiddleware(client))),
+	);
+	let persistor = persistStore(store);
 
-    return { store, persistor };
+	return { store, persistor };
 };
 
 export default configureStore;

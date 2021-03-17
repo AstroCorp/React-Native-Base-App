@@ -4,7 +4,7 @@ import { StatusBar, View, Text, StyleSheet } from 'react-native';
 import { Provider } from 'react-redux';
 import configureStore from './src/store/configureStore';
 import { PersistGate } from 'redux-persist/integration/react';
-import NetInfo from "@react-native-community/netinfo";
+import NetInfo from '@react-native-community/netinfo';
 import SplashScreen from 'react-native-splash-screen';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -31,17 +31,25 @@ const App = () => {
 	});
 
 	const toggleInternetStatus = () => {
-		NetInfo.addEventListener(state => setIsConnected(state.isConnected));
+		NetInfo.addEventListener((state) => setIsConnected(state.isConnected));
 	};
 
 	const drawer = () => {
 		return (
 			<Drawer.Navigator initialRouteName="Home">
-				<Drawer.Screen name="Home" component={Home} options={{ headerShown: false }} />
-				<Drawer.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
+				<Drawer.Screen
+					name="Home"
+					component={Home}
+					options={{ headerShown: false }}
+				/>
+				<Drawer.Screen
+					name="Settings"
+					component={Settings}
+					options={{ headerShown: false }}
+				/>
 			</Drawer.Navigator>
 		);
-	}
+	};
 
 	return (
 		<SafeAreaProvider>
@@ -51,8 +59,16 @@ const App = () => {
 
 					<NavigationContainer>
 						<Stack.Navigator initialRouteName="Tutorial">
-							<Stack.Screen name="Tutorial" component={Tutorial} options={{ headerShown: false }} />
-							<Stack.Screen name="Home" component={drawer} options={{ headerShown: false }} />
+							<Stack.Screen
+								name="Tutorial"
+								component={Tutorial}
+								options={{ headerShown: false }}
+							/>
+							<Stack.Screen
+								name="Home"
+								component={drawer}
+								options={{ headerShown: false }}
+							/>
 						</Stack.Navigator>
 					</NavigationContainer>
 
@@ -65,7 +81,7 @@ const App = () => {
 			</Provider>
 		</SafeAreaProvider>
 	);
-}
+};
 
 const styles = StyleSheet.create({
 	bg: {
@@ -75,13 +91,13 @@ const styles = StyleSheet.create({
 		flex: 1,
 		backgroundColor: 'rgba(0,0,0,0.1)',
 		justifyContent: 'flex-end',
-		alignItems: 'center'
+		alignItems: 'center',
 	},
 
 	text: {
 		color: '#E51212',
-		marginBottom: 35
-	}
+		marginBottom: 35,
+	},
 });
 
 export default App;
