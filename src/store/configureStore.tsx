@@ -8,11 +8,8 @@ import exampleReducer from './reducers/exampleReducer';
 
 LogBox.ignoreAllLogs();
 
-if (Text.defaultProps == null) {
-    Text.defaultProps = {};
-}
-
-Text.defaultProps.allowFontScaling = false;
+Text?.defaultProps = Text.defaultProps || {};
+Text?.defaultProps.allowFontScaling = false;
 
 const client = axios.create({
     baseURL: 'https://api.github.com/users/AstroCorp/repos',
