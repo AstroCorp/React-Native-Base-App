@@ -4,6 +4,7 @@ import { Text, Button } from 'react-native';
 import { increment, decrement, listRepos } from '../store/actions/index';
 import Header from '../components/Header';
 import SafeAreaView from 'react-native-safe-area-view';
+import { Dispatch } from 'redux';
 
 const Settings = (props) => {
 	return (
@@ -25,10 +26,10 @@ function mapStateToProps(state) {
 	};
 }
 
-function mapDispatchToProps(dispatch) {
+function mapDispatchToProps(dispatch: Dispatch) {
 	return {
-		onIncrement: (value) => dispatch(increment(value)),
-		onDecrement: (value) => dispatch(decrement(value)),
+		onIncrement: (value: number) => dispatch(increment(value)),
+		onDecrement: (value: number) => dispatch(decrement(value)),
 		onListRepos: () => dispatch(listRepos()),
 	};
 }
