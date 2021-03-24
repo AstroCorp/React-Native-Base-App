@@ -1,8 +1,8 @@
 import React from 'react';
 import Svg, { Path } from 'react-native-svg';
-import Icon from '../../types/icon';
+import IconProps from '../../types/iconProps';
 
-const MenuIcon = (props: Icon) => (
+const MenuIcon = (props: IconProps) => (
 	<Svg width={props.width} height={props.height} viewBox="0 0 24 24">
 		<Path d="M0 0h24v24H0z" fill="none" />
 		<Path
