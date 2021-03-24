@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, TouchableWithoutFeedback, Text, StyleSheet, StatusBar } from 'react-native';
 import MenuIcon from '../assets/icons/Menu';
-import Header from '../types/header';
+import HeaderProps from '../types/headerProps';
 
-const Header = (props: Header) => (
+const Header = (props: HeaderProps) => (
 	<View style={{ height: 60 }}>
 		<StatusBar backgroundColor="#346998" />
 		<View style={styles.header}>

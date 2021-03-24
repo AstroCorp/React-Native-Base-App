@@ -6,7 +6,7 @@ type DrawerNavigationParamList = {
     toggleDrawer(): void;
 };
 
-export default interface Header {
+export default interface HeaderProps {
 	title: string;
     navigation: DrawerActionHelpers<DrawerNavigationParamList>;
 }

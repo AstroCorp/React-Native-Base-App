@@ -1,26 +1,24 @@
 import { Text, LogBox } from 'react-native';
-import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
+import { composeWithDevTools } from 'redux-devtools-extension';
 import AsyncStorage from '@react-native-community/async-storage';
 import axiosMiddleware from 'redux-axios-middleware';
 import axios from 'axios';
+import TextWithDefaultProps from '../types/textWithDefaultProps';
 import exampleReducer from './reducers/exampleReducer';
 
 LogBox.ignoreAllLogs();
 
-Text?.defaultProps = Text.defaultProps || {};
-Text?.defaultProps.allowFontScaling = false;
+((Text as unknown) as TextWithDefaultProps).defaultProps = ((Text as unknown) as TextWithDefaultProps).defaultProps || {};
+((Text as unknown) as TextWithDefaultProps).defaultProps!.allowFontScaling = false;
 
 const client = axios.create({
 	baseURL: 'https://api.github.com/users/AstroCorp/repos',
 	responseType: 'json',
 });
 
-let composeEnhancers = compose;
-
-if (__DEV__) {
-	composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-}
+const composeEnhancers = composeWithDevTools({});
 
 const persistConfig = {
 	key: 'example',
@@ -34,11 +32,11 @@ const rootReducer = combineReducers({
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 const configureStore = () => {
-	let store = createStore(
+	const store = createStore(
 		persistedReducer,
 		composeEnhancers(applyMiddleware(axiosMiddleware(client))),
 	);
-	let persistor = persistStore(store);
+	const persistor = persistStore(store);
 
 	return { store, persistor };
 };
