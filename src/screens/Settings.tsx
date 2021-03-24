@@ -5,6 +5,7 @@ import { increment, decrement, listRepos } from '../store/actions/index';
 import Header from '../components/Header';
 import SafeAreaView from 'react-native-safe-area-view';
 import { Dispatch } from 'redux';
+import State from '../types/state';
 
 const Settings = (props) => {
 	return (
@@ -20,7 +21,7 @@ const Settings = (props) => {
 	);
 };
 
-function mapStateToProps(state) {
+function mapStateToProps(state: State) {
 	return {
 		counter: state.exampleReducer.counter,
 	};
