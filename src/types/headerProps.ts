@@ -1,6 +1,6 @@
 import { DrawerActionHelpers } from '@react-navigation/routers';
 
-type DrawerNavigationParamList = {
+export type DrawerNavigationParamList = {
     openDrawer(): void;
     closeDrawer(): void;
     toggleDrawer(): void;

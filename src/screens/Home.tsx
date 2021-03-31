@@ -3,8 +3,9 @@ import { Text } from 'react-native';
 import Header from '../components/Header';
 import LottieView from 'lottie-react-native';
 import SafeAreaView from 'react-native-safe-area-view';
+import HomeProps from '../types/homeProps';
 
-const Home = (props) => {
+const Home = (props: HomeProps) => {
 	return (
 		<SafeAreaView style={{ flex: 1 }}>
 			<Header title="Home" navigation={props.navigation} />
