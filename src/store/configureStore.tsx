@@ -5,7 +5,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import AsyncStorage from '@react-native-community/async-storage';
 import axiosMiddleware from 'redux-axios-middleware';
 import axios from 'axios';
-import TextWithDefaultProps from '../types/textWithDefaultProps';
+import TextWithDefaultProps from '../types/react-native/textWithDefaultProps';
 import exampleReducer from './reducers/exampleReducer';
 
 LogBox.ignoreAllLogs();

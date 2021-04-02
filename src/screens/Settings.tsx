@@ -5,10 +5,9 @@ import { increment, decrement, listRepos } from '../store/actions/index';
 import Header from '../components/Header';
 import SafeAreaView from 'react-native-safe-area-view';
 import { Dispatch } from 'redux';
-import State from '../types/state';
-import SettingsProps from '../types/settingsProps';
+import State from '../types/redux/state';
 
-const Settings = (props: SettingsProps) => {
+const Settings = (props) => {
 	return (
 		<SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
 			<Header title="Settings" navigation={props.navigation} />

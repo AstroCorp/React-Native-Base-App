@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 import Header from '../components/Header';
 import LottieView from 'lottie-react-native';
 import SafeAreaView from 'react-native-safe-area-view';
-import HomeProps from '../types/homeProps';
+import HomeProps from '../types/react-navigation/HomeProps';
 
 const Home = (props: HomeProps) => {
 	return (
