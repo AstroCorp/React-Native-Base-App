@@ -8,9 +8,7 @@ const Tutorial = (props: TutorialProps) => {
 		<SafeAreaView>
 			<Text>Tutorial :v</Text>
 			<Button
-				onPress={() => props.navigation.navigate({
-					key: 'Home',
-				})}
+				onPress={() => props.navigation.navigate('Home')}
 				title="Entrar en la App"
 			/>
 		</SafeAreaView>
