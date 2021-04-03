@@ -11,7 +11,7 @@ import exampleReducer from './reducers/exampleReducer';
 LogBox.ignoreAllLogs();
 
 ((Text as unknown) as TextWithDefaultProps).defaultProps = ((Text as unknown) as TextWithDefaultProps).defaultProps || {};
-((Text as unknown) as TextWithDefaultProps).defaultProps!.allowFontScaling = false;
+((Text as unknown) as TextWithDefaultProps).defaultProps.allowFontScaling = false;
 
 const client = axios.create({
 	baseURL: 'https://api.github.com/users/AstroCorp/repos',
