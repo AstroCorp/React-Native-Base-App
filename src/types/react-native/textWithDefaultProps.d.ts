@@ -1,3 +1,5 @@
+import { Text } from 'react-native';
+
 interface DefaultProps {
 	allowFontScaling: boolean;
 }
