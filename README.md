@@ -1,6 +1,6 @@
 # React Native - Base App
 
-> Base para desarrollar aplicaciones para iOS y Android con React Native.
+> Base para desarrollar aplicaciones para iOS y Android con React Native + TypeScript.
 
 ## Herramientas
 
