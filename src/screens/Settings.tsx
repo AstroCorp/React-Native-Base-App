@@ -6,8 +6,9 @@ import Header from '../components/Header';
 import SafeAreaView from 'react-native-safe-area-view';
 import { Dispatch } from 'redux';
 import State from '../types/redux/state';
+import SettingsProps from '../types/react-navigation/SettingsProps';
 
-const Settings = (props) => {
+const Settings = (props: SettingsProps) => {
 	return (
 		<SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
 			<Header title="Settings" navigation={props.navigation} />

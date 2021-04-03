@@ -1,4 +1,4 @@
-interface exampleReducer {
+export interface exampleReducer {
     counter: number;
 	loading: boolean;
 	error: string;

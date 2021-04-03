@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, TouchableWithoutFeedback, Text, StyleSheet, StatusBar } from 'react-native';
 import MenuIcon from '../assets/icons/Menu';
-import HeaderProps from '../types/headerProps';
+import HeaderProps from '../types/react-navigation/HeaderProps';
 
 const Header = (props: HeaderProps) => (
 	<View style={{ height: 60 }}>

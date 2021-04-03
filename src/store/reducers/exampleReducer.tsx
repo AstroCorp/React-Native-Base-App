@@ -1,3 +1,4 @@
+import { AnyAction } from 'redux';
 import { INCREMENT, DECREMENT, GET_REPOS, GET_REPOS_SUCCESS, GET_REPOS_FAIL } from '../actions/actionTypes';
 
 const initialState = {
@@ -7,7 +8,7 @@ const initialState = {
 	repos: [],
 };
 
-const exampleReducer = (state = initialState, action) => {
+const exampleReducer = (state = initialState, action: AnyAction) => {
 	switch (action.type) {
 		case INCREMENT:
 			return { ...state, counter: state.counter + action.value };
