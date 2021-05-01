@@ -4985,10 +4985,10 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lottie-ios@3.2.0, lottie-ios@^3.1.8:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/lottie-ios/-/lottie-ios-3.2.0.tgz#0a0f229e065833c3b54169f5ee6a2624b8fd9c94"
-  integrity sha512-WZco9THmu8/zd1ysqa4kl56BqnZvsOgV2C4UYHj/aOxAYP/3mjeHHxs11l1DFVOyYR5KOs+6FpjTsU5fMgKkXA==
+lottie-ios@3.2.2, lottie-ios@^3.1.8:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/lottie-ios/-/lottie-ios-3.2.2.tgz#c684bb9bdc91a970f15192506ee77b3c5c062ca6"
+  integrity sha512-buYj/HbzoTeqiVy+Hpzfd2STdRW7RJnne+09z48nVvBYO+ioG5B5EvRb92pYOoRDNr0stQpfurzK1uFXW4gGCA==
 
 lottie-react-native@^3.5.0:
   version "3.5.0"
