@@ -6252,10 +6252,10 @@ react-native-rename-next@^2.5.3:
     replace-last "^1.2.6"
     shelljs "^0.7.7"
 
-react-native-rename@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/react-native-rename/-/react-native-rename-2.7.0.tgz#c780df0b0b01515aabc2dfd94f8561eb761452c7"
-  integrity sha512-l/D4big+b5fsvDzlrC12raiCJKRJxgqDE3PR85QtBe11InlZ0N44Hf/D00I640uM1i4VIUc8xkko1jt45QPEOg==
+react-native-rename@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/react-native-rename/-/react-native-rename-2.8.1.tgz#3588774a9eefdf8b183007fd499a2f0528c63c0e"
+  integrity sha512-l8Dk9AS9d4FUCwwVkM0SAtNxzL2QwIcFtmj82tXCZEEH8Jc9A7v47Xckr9YpKDDpnYPzlIj5ZX41wG5g+OU+qQ==
   dependencies:
     cheerio "^0.22.0"
     colors "^1.1.2"
