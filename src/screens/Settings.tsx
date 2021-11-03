@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 import { Text, Button } from 'react-native';
 import { increment, decrement, listRepos } from '../store/actions/index';
 import Header from '../components/Header';
-import SafeAreaView from 'react-native-safe-area-view';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Dispatch } from 'redux';
 import State from '../types/redux/state';
 import SettingsProps from '../types/react-navigation/SettingsProps';
 
 const Settings = (props: SettingsProps) => {
 	return (
-		<SafeAreaView forceInset={{ top: 'always', horizontal: 'never' }}>
+		<SafeAreaView>
 			<Header title="Settings" navigation={props.navigation} />
 
 			<Text>Pressed {props.counter} times!</Text>
