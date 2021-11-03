@@ -44,5 +44,4 @@
 - **ios-notch:** Abre la app en un emulador de IOS (iPhone 12)
 - **ios-promax:** Abre la app en un emulador de IOS (iPhone 12 Pro Max)
 - **ios-ipadpro:** Abre la app en un emulador de IOS (iPad Pro (12.9-inch) (4rd generation))
-- **nox-player:** Usar Nox Player para desarrollar
 - **devmenu-android:** Abrir menú de desarrollo en android

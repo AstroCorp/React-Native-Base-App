@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, Button } from 'react-native';
-import SafeAreaView from 'react-native-safe-area-view';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import TutorialProps from '../types/react-navigation/TutorialProps';
 
 const Tutorial = (props: TutorialProps) => {
@@ -8,7 +8,7 @@ const Tutorial = (props: TutorialProps) => {
 		<SafeAreaView>
 			<Text>Tutorial :v</Text>
 			<Button
-				onPress={() => props.navigation.navigate('Home')}
+				onPress={() => props.navigation.navigate('Drawer')}
 				title="Entrar en la App"
 			/>
 		</SafeAreaView>
