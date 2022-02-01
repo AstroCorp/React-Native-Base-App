@@ -26,7 +26,7 @@
     "@react-native-community/netinfo": "^6.0.4",
     "@react-navigation/drawer": "^6.1.8",
     "@react-navigation/native": "^6.0.6",
-    "@react-navigation/stack": "^6.0.11",
+    "@react-navigation/stack": "^6.1.0",
     "axios": "^0.24.0",
     "lottie-ios": "3.2.3",
     "lottie-react-native": "^4.1.3",
