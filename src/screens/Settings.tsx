@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 import { Text, Button } from 'react-native';
 import { increment, decrement, listRepos } from '../store/actions/index';
 import Header from '../components/Header';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import { Dispatch } from 'redux';
 import State from '../types/redux/state';
 import SettingsProps from '../types/react-navigation/SettingsProps';
+import MainView from '../components/MainView';
 
 const Settings = (props: SettingsProps) => {
 	return (
-		<SafeAreaView>
+		<MainView>
 			<Header title="Settings" navigation={props.navigation} />
 
 			<Text>Pressed {props.counter} times!</Text>
@@ -18,7 +18,7 @@ const Settings = (props: SettingsProps) => {
 			<Button title="Decrement" onPress={() => props.onDecrement(1)} />
 
 			<Button title="Axios" onPress={() => props.onListRepos()} />
-		</SafeAreaView>
+		</MainView>
 	);
 };
 

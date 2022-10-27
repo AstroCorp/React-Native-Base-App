@@ -34,7 +34,7 @@ const App = () => {
 		NetInfo.addEventListener((state) => setIsConnected(state.isConnected));
 	};
 
-	const drawer = () => {
+	const DrawerNavigator = () => {
 		return (
 			<Drawer.Navigator initialRouteName="Home">
 				<Drawer.Screen
@@ -66,7 +66,7 @@ const App = () => {
 							/>
 							<Stack.Screen
 								name="Drawer"
-								component={drawer}
+								component={DrawerNavigator}
 								options={{ headerShown: false }}
 							/>
 						</Stack.Navigator>
