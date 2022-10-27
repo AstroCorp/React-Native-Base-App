@@ -14,15 +14,7 @@
 
 ## Pasos para renombrar el proyecto:
 
-1. Ejecutar yarn install.
-2. Usar una de las herramientas mencionadas arriba.
-3. El nombre de la app en IOS se cambia desde xCode
-4. El nombre de la app en Android se cambia en el archivo /android/app/src/main/res/values/strings.xml
-5. Ejecutar yarn run clean.\*
-6. Ejecutar yarn run clean-android.\*
-7. Ejecutar yarn run clean-ios.\*
-
-> Si desarrollas en MAC OS puedes ejecutar yarn clean-all y automáticamente se ejecutarán los 3 clean.
+La nueva arquitectura ha dejado obsoleta la forma de renombrar le proyecto.
 
 ## Comandos:
 
