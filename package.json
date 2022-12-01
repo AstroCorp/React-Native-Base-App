@@ -31,7 +31,7 @@
     "lottie-ios": "3.4.0",
     "lottie-react-native": "^5.1.4",
     "react": "18.2.0",
-    "react-native": "0.70.4",
+    "react-native": "0.70.6",
     "react-native-fast-image": "^8.6.1",
     "react-native-gesture-handler": "^2.8.0",
     "react-native-reanimated": "^2.12.0",
