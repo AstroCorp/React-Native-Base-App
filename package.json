@@ -21,7 +21,7 @@
     "devmenu-android": "adb shell input keyevent 82"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.17.10",
+    "@react-native-async-storage/async-storage": "^1.17.11",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-native-community/netinfo": "^9.3.6",
     "@react-navigation/drawer": "^6.5.0",
