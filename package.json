@@ -49,7 +49,7 @@
     "@babel/runtime": "^7.20.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.24",
-    "@types/react": "^18.0.24",
+    "@types/react": "^18.0.27",
     "@types/react-native": "^0.70.6",
     "@types/react-redux": "^7.1.23",
     "@types/react-test-renderer": "^18.0.0",
